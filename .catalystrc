@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "18046000000435002",
+      "name": "CRUD-Application",
+      "domain": {
+        "id": "10089343737",
+        "name": "crud-application-810661929.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "810661929",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

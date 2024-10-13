@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #001438;
+}
+.content-wrapper{
+    height: calc(100vh - 95px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: #fff;
+}
+h2{
+    flex-grow: 1;
+    text-align: center;
+    color: #fff;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logoutbtn{
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FFC55A;
+    color: #001438;
+}
+#responseTable{
+    margin: auto;
+    border-collapse: collapse;
+}
+#responseTable th, #responseTable td {
+    padding: 10px 70px;
+    border: 1px solid #fff; 
+}
+#deletebtn{
+    margin-left: 5px;
+}
+.inserted-content{
+    color: #fff;
+}
+.submitbtn{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FFC55A;
+    color: #001438;
+}
+#editInput{
+    width: 100px;
+}
