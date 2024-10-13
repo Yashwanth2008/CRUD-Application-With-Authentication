@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="./delete.png">
     <title>CRUD-Application</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <script src="catalystWebSDK.js"></script>
     <script src="/__catalyst/sdk/init.js"></script>
     <script src="main.js"></script>
@@ -20,31 +26,31 @@
         </button>
       </div>
       <div class="content-wrapper">
-      <div class="input-field">
-        <label for="fname">FirstName:</label>
-        <input id="fname" type="text" placeholder="Enter First Name" />
-        <label for="lname">LastName:</label>
-        <input id="lname" type="text" placeholder="Enter Last Name" />
-        <label for="rollnum">RollNumber:</label>
-        <input id="rollnum" type="text" placeholder="Enter Roll Number" />
-        <button class="submitbtn" type="submit" onclick="insertOperation()">Submit</button>
+        <div class="input-field">
+          <label for="fname">FirstName:</label>
+          <input id="fname" type="text" placeholder="Enter First Name" />
+          <label for="lname">LastName:</label>
+          <input id="lname" type="text" placeholder="Enter Last Name" />
+          <label for="rollnum">RollNumber:</label>
+          <input id="rollnum" type="text" placeholder="Enter Roll Number" />
+          <button class="submitbtn" type="submit" onclick="insertOperation()">
+            Submit
+          </button>
+        </div>
+        <div class="inserted-content">
+          <table id="responseTable">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Roll Number</th>
+                <th>Operations</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
       </div>
-      <div class="inserted-content">
-        <table id="responseTable">
-          <thead>
-            <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Roll Number</th>
-              <th>Operations</th>
-            </tr>
-          </thead>
-          <tbody id="tableBody">
-           
-          </tbody>
-        </table>
-      </div>
-    </div>
     </div>
   </body>
 </html>
